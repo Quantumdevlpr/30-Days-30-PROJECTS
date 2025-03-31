@@ -56,6 +56,8 @@ body{
 #imgBox{
     width: 200px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
